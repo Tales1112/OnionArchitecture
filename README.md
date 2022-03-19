@@ -1,39 +1,3 @@
-<p><font color="#004080" size="5" face="Segoe UI">&nbsp;</font><strong><font color="#000080" size="5" face="Trebuchet MS"><img border="0" src="../../Cursos/webmatrix/maco10.gif" width="233" height="32"></font></strong><span style="letter-spacing: 0.05em; font-weight:700"><font face="Segoe UI" size="4" color="#000080"> 
-ASP 
-.NET Core -&nbsp;Implementando a Onion Architecture - I</font></span></p>
-
-<hr>
-
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="98%">
-  <tbody><tr>
-    <td width="12%" align="center">
-    <span style="letter-spacing: 0.05em; ">
-    <font face="Trebuchet MS">
-    <img border="0" src="../../maco_round1.png" width="93" height="92"></font></span></td>
-    <td width="88%">
-    <span style="letter-spacing: 0.05em"><font face="Segoe UI">Neste artigo 
-	vamos criar uma aplicação <font color="#0000FF">ASP .NET Core WEBAPI</font>&nbsp; fazendo uma implementação básica da 
-	arquitetura em Cebola ou <font color="#0000FF">Onion Architecture.</font></font></span></td>
-  </tr>
-</tbody></table>
-
-<p><span style="letter-spacing: 0.05em"><font face="Segoe UI">Sei que você pode 
-estar cansado de ver diagramas representando a <font color="#0000FF">Onion 
-Architecture</font> mas como existem diversas possibilidades para representar as 
-camadas e existem muitos diagramas eu vou mostrar o diagrama no qual eu vou 
-basear o este artigo.</font></span></p>
-<table border="0" width="97%">
-	<tbody><tr>
-		<td>
-		<p align="left">
-		<font face="Trebuchet MS">
-		<a href="http://www.macoratti.net/curso_aspnet_core2.htm">
-		<img border="1" src="../../ncursoaspncore2.jpg" width="446" height="58" class="responsive"></a></font><a href="http://www.macoratti.net/curso_webapi_core3.htm"><img border="1" src="../../curso_webapi1.jpg" width="449" height="59" class="responsive"></a></p></td>
-	</tr>
-</tbody></table>
-<p><span style="letter-spacing: 0.05em"><font face="Segoe UI">Isso não significa 
-que esta abordagem é mais correta que as demais. Significa apenas que é a minha 
-abordagem.</font></span></p>
 <p><span style="letter-spacing: 0.05em"><font face="Segoe UI">Na
 <font color="#0000FF">Onion Architecture</font> deve ser a <u>Camada de Domínio</u>
 <i>(entidades e regras de validação comuns ao caso de negócios</i>) que está no 
@@ -42,7 +6,7 @@ acoplamento. Nesta abordagem, podemos ver que todas as camadas dependem apenas
 das camadas principais e o fluxo sempre deve ser no sentido das camadas externas 
 para as camadas internas.</font></span></p>
 <p>
-<img border="0" src="aspc_implonion110.png" width="340" height="323" class="responsive"></p>
+<img border="0" src="![image](https://user-images.githubusercontent.com/74432649/159140292-606ec486-f3a3-4fb1-9fc8-2e67e47dab90.png)" width="340" height="323" class="responsive"></p>
 <p><span style="letter-spacing: 0.05em"><font face="Segoe UI">Nesta figura<font color="#0000FF"> 
 Domain e Application</font> são camadas que estarão no centro do design. Podemos 
 nos referir a essas camadas como <font color="#0000FF">Camadas Principais ou 
